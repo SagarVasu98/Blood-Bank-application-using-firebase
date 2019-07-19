@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Facebook Login and Filter</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/6.1.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.11.1/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.11.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.11.1/firebase-storage.js"></script>
+
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+         https://firebase.google.com/docs/web/setup#config-web-app -->
+
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyDaA_Ism1KFbiRzhimFqbCNWFIWZByDU-Q",
+            authDomain: "blood-bank01.firebaseapp.com",
+            databaseURL: "https://blood-bank01.firebaseio.com",
+            projectId: "blood-bank01",
+            storageBucket: "blood-bank01.appspot.com",
+            messagingSenderId: "796824024864",
+            appId: "1:796824024864:web:668f1ae7a2a43df8"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+    </script>
+</head>
+
+<body>
+    <center>
+        <div>
+
+            <h1>
+                FACEBOOK LOGIN
+            </h1>
+
+
+            <button onclick="facebook()"
+                style="border: 2px solid #4267B2; color: white; font-size: 20px; background-color: #4267B2; padding: 15px;">Login
+                With Facbook</button>
+
+
+
+        </div>
+
+
+
+
+
+    </center>
+
+</body>
+<script>
+
+    let x = [{
+        name: `Sagar`,
+        blood: `B+`,
+        city: `Mithi`
+    }, {
+        name: `Kamal`,
+        blood: `B+`,
+        city: `Mithi`
+    }, {
+        name: `Heerji`,
+        blood: `AB+`,
+        city: `Mithi`
+    }, {
+        name: `Darpan`,
+        blood: `A+`,
+        city: `Karachi`
+    }, {
+        name: `Rashid`,
+        blood: `A+`,
+        city: `Karachi`
+    },]
+
+
+    y = [`A+`, `B+`];
+
+
+
+
+
+    // x.filter(data => {
+
+    //     for (var i = 0; i < y.length; i++) {
+    //         if (data.blood === y[i]) {
+    //             console.log(`Groups ==>`, data)
+
+    //         }
+
+    //     }
+
+
+
+    // })
+
+
+ 
+
+
+
+
+
+</script>
+
+</html>

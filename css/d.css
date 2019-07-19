@@ -1,0 +1,349 @@
+body {
+  margin: 0;
+  background-color: #eff4f7;
+  font-family: "Dosis", sans-serif;
+}
+
+#container1 {
+  height: 50px;
+  padding: 2px;
+  background-color: #fe3c47;
+}
+
+#container1 p {
+  margin-left: 60px;
+  color: white;
+  font-weight: 100px;
+  font-size: 17px;
+}
+
+#sp1 {
+  width: 39px;
+  height: 42px;
+  background-color: white;
+  padding: 3px 5px 3px 10px;
+  margin-left: 860px;
+}
+
+#sp2 {
+  width: 39px;
+  height: 42px;
+  background-color: white;
+  padding: 3px 5px 3px 10px;
+  margin-left: 10px;
+}
+
+#sp3 {
+  width: 39px;
+  height: 42px;
+  background-color: white;
+  padding: 3px 5px 3px 10px;
+  margin-left: 10px;
+}
+
+#sp4 {
+  width: 39px;
+  height: 42px;
+  background-color: white;
+  padding: 3px 5px 3px 10px;
+  margin-left: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: gray;
+}
+
+a:hover {
+  color: red;
+}
+
+/* Navigation */
+
+.navbar {
+  width: 100%;
+  margin-top: 20px;
+}
+#img {
+  margin-left: 30px;
+  float: left;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #fe3c47;
+  color: white;
+}
+
+.active {
+  background-color: #fe3c47;
+  color: white;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+
+/* pagination */
+
+#pagination {
+  margin-top: 100px;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 24px 0px 48px 0px;
+}
+
+/* Card CSS */
+
+/* Main CSS */
+#contianer {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 14px;
+  line-height: 21px;
+  text-decoration: none solid rgb(0, 10, 10);
+  text-align: left;
+  background-color: #ffffff;
+  height: 60px;
+  width: 1104.64px;
+  min-width: auto;
+  min-height: 60px;
+  display: flex;
+  transform: none;
+  transition: all 0.2s ease-in-out 0s;
+  outline: rgb(10, 10, 10) dashed 0px;
+}
+
+#text {
+  width: 603px;
+  height: 40px;
+  border: 1px solid #f2f6fd;
+  padding: 7px 7px 7px 7px;
+  overflow: hidden;
+  cursor: text;
+  transform: none;
+  transition: all 0.2s ease-in-out 0s;
+  outline: rgb(10, 10, 10) dashed 0px;
+  text-overflow: ellipsis;
+  /* outline: rgb(255, 0, 0) dashed 1px; */
+  box-sizing: border-box;
+  margin: 10px 20px;
+}
+
+.btn {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  height: 40px;
+  margin-top: 10px;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: RoyalBlue;
+}
+
+.start {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  height: 40px;
+  margin-top: 10px;
+  width: 100px;
+}
+
+/* Darker background on mouse-over */
+.start:hover {
+  background-color: RoyalBlue;
+}
+
+.finish {
+  background-color: #f22112;
+  border: none;
+  color: white;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  height: 40px;
+  margin-top: 10px;
+  width: 100px;
+  display: none;
+}
+
+/* Darker background on mouse-over */
+.finish:hover {
+  background-color: #f22112;
+}
+
+.clock {
+  text-align: center;
+  margin-top: 18px;
+  margin-left: 40px;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+#container {
+  padding: 20px 30px 20px 30px;
+  display: inline-block;
+}
+
+.input-field {
+  width: 135%;
+  padding: 10px;
+  outline: none;
+}
+
+.input-field:focus {
+  border: 2px solid dodgerblue;
+}
+
+#box {
+  padding: 20px 30px 20px 30px;
+  float: right;
+  margin-right: 100px;
+}
+
+.btn {
+  background-color: dodgerblue;
+  color: white;
+  padding: 15px 20px 15px auto;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  height: 55px;
+  margin-top: 10%;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+#file {
+  width: 100%;
+  /* padding: 10px; */
+  outline: none;
+}
+
+#para:focus {
+  border: 2px solid #e4eaee;
+}
+
+.mainBox {
+  height: 80%;
+  width: 65%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: white;
+  overflow-x: hidden;
+  padding-top: 16px;
+  margin: 5% 25%;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
+}
+/* Card Css */
+* {
+  box-sizing: border-box;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 24%;
+  padding: 0 10px;
+  margin-left: 50px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {
+  margin: 0 -5px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
+  /* padding: 16px; */
+  margin-top: 25px;
+  text-align: center;
+  background-color: white;
+}
+
+
+#row {
+  margin: 40px 0px 40px 0px;
+}
+
+.button3 {
+  background-color: white;
+  color: black;
+  border: 2px solid #f44336;
+  padding: 16px;
+  width: 150px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.button3:hover {
+  background-color: #f44336;
+  color: white;
+}
+
+/* .request {
+  background-color: white;
+  color: black;
+  border: 2px solid dodgerblue;
+  padding: 16px;
+  width: 150px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.request:hover{
+  background-color: dodgerblue;
+  color: white;
+
+} */
+
+
